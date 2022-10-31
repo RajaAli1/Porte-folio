@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Personal Portfolio</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Jost:regular,500,800" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+  <!--
+    - container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <!--
+        - navbar toggle open button
+      -->
+
+      <button class="menu-open-btn">
+        <span>Menu</span>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="nav">
+
+        <button class="menu-close-btn">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <h4 class="nav-heading">Menu</h4>
+
+        <ul>
+
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - header intro
+      -->
+
+      <section class="intro section-padding">
+
+        <div class="intro-profile">
+
+          <div class="intro-border one"></div>
+          <div class="intro-border two"></div>
+
+          <div class="img-box">
+            <img src="./assets/images/Raja_Ali.jpg" alt="" class="intro-img" width="100%" loading="lazy">
+          </div>
+
+          <p>Hi ther! I am</p>
+
+          <div class="profile-name">
+            <span>[</span>
+            <div>Raja Ali</div>
+            <span>]</span>
+          </div>
+
+        </div>
+
+        <a href="#contact" class="intro-link">
+          <span class="circle"></span>
+          <span class="link-underline">I’m available for a freelance job. Hire me</span>
+        </a>
+
+      </section>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME
+      -->
+
+      <section class="section-padding" id="home">
+
+        <h3 class="section-subtitle">Introduction</h3>
+
+        <h2 class="section-title">Data Analyst</h2>
+
+        <p class="section-desc">I Organising data in to usable formats , analysing data to find answers to specific
+           questions and Developing, implementing and maintaining databases.</p>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section-padding" id="about">
+
+        <h3 class="section-subtitle">About me</h3>
+
+        <h2 class="section-title">Biography</h2>
+
+        <p class="section-desc">I'm a Data Analyst .
+           I'm from Tunisia. I'm looking for learn more about web development. 
+          I like work with new people. New people are new experiences.</p>
+
+
+        <table class="about-table">
+          <tr>
+            <th>Name</th>
+            <td>Raja Ali</td>
+          </tr>
+          <tr>
+            <th>Birthday</th>
+            <td>4th November 1999</td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <td>23 years</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>Gafsa , Tunisia</td>
+          </tr>
+          <tr>
+            <th>Phone</th>
+            <td>
+              <a href="tel:+1234567891011" class="link-underline">58611339</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>
+              <a href="mailto:rajaali.usf@gmail.com" class="link-underline">rajaali.usf@gmail.com</a>
+            </td>
+          </tr>
+          <tr>
+            <th>linkedin</th>
+            <td>
+              <a href="https://www.linkedin.com/in/raja-ali-58b1a521a" class="link-underline">linkedin</a>
+            </td>
+          </tr>
+        </table>
+
+        <div class="about-tab">
+
+          <ul class="tab-nav">
+            <li>
+              <button class="one tab-button">Education</button>
+            </li>
+            <li>
+              <button class="two tab-button">Skills</button>
+            </li>
+
+          </ul>
+
+          <div class="tab-content-group">
+
+            <div class="one tab-content active">
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Ibn Rochd college</h4>
+                  <p>( 2018 — 2019)</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Bachelor Degree</h3>
+                  <p>Experimental science.</p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>ISIMS</h4>
+                  <p>( 2019 — 2022 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>National license</h3>
+                  <p>Big data and data analysis.</p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>ISAEG</h4>
+                  <p>( 2022 — 2023 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Master Degree</h3>
+                  <p>Data science.</p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="two tab-content">
+
+              <div class="skill-box">
+                <h4 class="skill-name">Data Warehouse</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 92%;"></div>
+                  <div class="progress-rate" style="left: 92%;">92%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Python</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 95%;"></div>
+                  <div class="progress-rate" style="left: 95%;">95%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name"> Power BI</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%;"></div>
+                  <div class="progress-rate" style="left: 80%;">80%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">SQL Server</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%;"></div>
+                  <div class="progress-rate" style="left: 85%;">85%</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #Work
+      -->
+      <section class="section-padding" id="Work">
+
+        <h3 class="section-subtitle">Work</h3>
+
+        <p class="section-desc">Analytical skills to gather, view and analyze information .
+          Numerical skills to measure and statistically analyze data .
+          Technical skills including software and scripting languages to organize and present data. </p>
+
+      </section>
+      
+
+
+      <!--
+        - #Resume
+      -->
+
+      <section class="section-padding" id="Resume">
+
+        <h3 class="section-subtitle">Resume</h3>
+
+        <h2 class="section-title">What I Do</h2>
+
+        <p class="section-desc">Reviews data to identify key insights into a business’s customers and ways the data can be used to solve problems.
+          also communicate this information to company leadership and other stakeholders.</p>
+
+      </section>
+      <!--
+        - #CONTACT
+      -->
+
+      <section class="section-padding" id="contact">
+
+        <h3 class="section-subtitle">Contact</h3>
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p class="section-desc">If you have any suggestion, project or even you want to say “hello”, please
+          fill out the form below and I will reply you shortly.</p>
+
+
+        <form action="#" class="contact-form">
+
+          <div class="wrapper">
+
+            <div>
+              <label for="name">Name *</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+
+            <div>
+              <label for="email">Email *</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="8"></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+
+        </form>
+
+        <div class="address">
+          <h4>Address</h4>
+          <address>2100 Gafsa , Tunisia</address>
+        </div>
+
+        <div class="phone">
+          <h4>Phone</h4>
+          <a href="tel:+1234567890">58611339</a>
+        </div>
+
+        <div class="email">
+          <a href="mailto:rajaali.usf@gmail.com" class="link-underline">rajaali.usf@gmail.com</a>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #FOOTER
+      -->
+
+      <div class="footer">
+
+        <a href="#home" class="go-top">
+          <div class="arrow">
+            <div class="arrow-head"></div>
+          </div>
+        </a>
+
+      </div>
+
+    </main>
+
+  </div>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <!--
+   - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
